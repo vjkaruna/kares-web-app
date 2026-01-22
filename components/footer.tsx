@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { Logo } from "@/components/logo";
 
 export function Footer() {
   return (
@@ -75,9 +76,7 @@ export function Footer() {
 
         {/* Footer Links */}
         <div className="flex flex-col md:flex-row items-center justify-between gap-8 pt-8 border-t border-border">
-          <div className="text-2xl md:text-3xl font-serif text-foreground">
-            Kares AI
-          </div>
+          <Logo size="sm" />
 
           <nav className="flex items-center gap-8">
             <Link
